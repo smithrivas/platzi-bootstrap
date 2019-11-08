@@ -1,0 +1,59 @@
+.text-platzi{
+  color: #97C93E !important;
+}
+
+.btn-platzi{
+  background-color: #97C93E;
+  color: white !important;
+}
+
+.btn-platzi:hover{
+  background-color: #82AD36;
+}
+
+#header img{
+  width: 80px;
+}
+
+#main .carousel-inner img{
+  max-height: 70vh; /* 70% del alto de la pantalla disponible en el navegador */
+  object-fit: cover; /* Adapta la imagen para no deformarla */
+  filter: grayscale(70%); /* Filtro de escala de grises */
+}
+
+#carousel{
+  position: relative;
+}
+
+#carousel .overlay{
+  position: absolute; /* Expanda por todo el alto del carousel */
+  /* Sin espacios por los lados y fondo oscuro con transparencia y letra color blanco */
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+  height: 100%;
+}
+
+#place-time{
+  background-color: #343A40;
+  color: white;
+}
+
+#place-time img{
+  max-width: 100%;
+}
+
+#footer{
+  background: linear-gradient(90deg,#1C3643,#273B47 25%,#1E5372)
+}
+
+#footer a{
+  color: white;
+}
